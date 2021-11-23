@@ -6,8 +6,9 @@ Main puropse of the application is to imitate slot game in casinos or similar ve
 ## Starting the application
 You can run this game by using your favourite Java IDEA or in a command line by typing in your src folder:
 
-**javac *.java**
-**java SlotGame**
+ > javac *.java
+ 
+ > java SlotGame
 
 The app will run a simulation of 100000 games.
 
