@@ -19,7 +19,7 @@ SlotGame - this is our main class which is only creating object and call functio
 ReelStripsConverter - Main pourpose of this class is to convert primary numbers to names we use in our game. I have decided to use primary numbers due to their limited amount of dividers furthermore ReelStripsConverter contains bets amount for every name we use.
 
 SlotMachine - In this class we are creating our array with random numbers and then we check if it can find any winning lines or shapes (V and reverse V). To check if a line contains only the same numbers, our app is multiplying all numbers in a line and then compares them to the value of the first index of the line raised to power of 5. Due to that we have to use primery numbers, because non primary numbers have more than 2 dividers for example:
- **4*4*2*1*1 = 2^5 = 32**
+ **4x4x2x1x1 = 2^5 = 32**
 
 To check if there is a different winning shape like V or reverse V, we create another function in which we look at values in array. Additionally, SlotMachine class has functions responsible for counting winnings and displaying winning moves.
 
