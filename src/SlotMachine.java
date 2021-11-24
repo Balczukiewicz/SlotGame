@@ -42,7 +42,7 @@ public class SlotMachine {
 
     int sumOfAllWinnings() {
         sumOfWinnings += winningsAmountFromLineMoves() + winningsAmountFromVandReverseVmoves();
-        System.out.println( "\nWygrana wynosi: " + sumOfWinnings );
+        System.out.println( "\nWinnings amount: " + sumOfWinnings );
         return sumOfWinnings;
     }
 
