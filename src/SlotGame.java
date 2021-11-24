@@ -1,7 +1,7 @@
 public class SlotGame {
 
     public static void main( String[] args ) {
-        System.out.println( "Zaczynamy gre" );
+        System.out.println( "Let's play a game" );
         SlotMachine slotMachine = new SlotMachine();
         double sumOfAllBets = 0;
         double sumOfAllPayouts = 0;
